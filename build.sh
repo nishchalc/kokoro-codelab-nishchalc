@@ -13,4 +13,4 @@ fi
 
 # Sleep for debugging.
 echo "Now going to sleep"
-sleep 600
+sleep 60
