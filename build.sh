@@ -10,7 +10,3 @@ if [ "$1" == "release" ]; then
 else
   javac Hello.java
 fi
-
-# Sleep for debugging.
-echo "Now going to sleep"
-sleep 600
