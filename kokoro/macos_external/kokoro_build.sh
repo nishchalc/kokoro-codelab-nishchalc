@@ -10,5 +10,5 @@ set -x
 # The final directory name in this path is determined by the scm name specified
 # in the job configuration.
 cd ${KOKORO_ARTIFACTS_DIR}/github/kokoro-codelab-nishchalc
-ls big_file.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file.txt
 ./build.sh
