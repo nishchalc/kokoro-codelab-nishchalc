@@ -11,4 +11,13 @@ set -x
 # in the job configuration.
 cd ${KOKORO_ARTIFACTS_DIR}/github/kokoro-codelab-nishchalc
 ls -l ${KOKORO_GFILE_DIR}/big_file.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_1.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_2.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_3.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_4.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_5.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_6.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_7.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_8.txt
+ls -l ${KOKORO_GFILE_DIR}/big_file_9.txt
 ./build.sh
