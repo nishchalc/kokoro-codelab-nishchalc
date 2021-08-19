@@ -22,7 +22,4 @@ ls -l ${KOKORO_GFILE_DIR}/big_file_8.txt
 ls -l ${KOKORO_GFILE_DIR}/big_file_9.txt
 ls -l ${KOKORO_GFILE_DIR}/bigger_file_1.txt
 ls -l ${KOKORO_GFILE_DIR}/bigger_file_2.txt
-ls -l ${KOKORO_GFILE_DIR}/bigger_file_3.txt
-ls -l ${KOKORO_GFILE_DIR}/bigger_file_4.txt
-ls -l ${KOKORO_GFILE_DIR}/bigger_file_5.txt
 ./build.sh
